@@ -1,0 +1,350 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.nav-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 54px;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.logo-header{
+  width: 100%;
+  align-self: left;
+  margin-left: 10px;
+}
+.logo-header img{
+  width: 100px;
+  
+}
+.nav-header ul{
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  margin-right: 10px;
+  color: white;
+}
+.nav-header ul li:hover{
+  color: rgb(49, 243, 6);
+  cursor: pointer;
+}
+.section-blue{
+
+  color: white;
+  background-color: #1d75de;
+  height: 360px;
+  width: 100%;  
+}
+.section-div{
+  display: flex;
+  flex-direction: column;
+   align-items:  space-between;
+  padding-bottom: 40px;
+  padding-top: 72px;
+  height: 100%;
+  width: 80%;
+  margin-left: 150px;
+  
+}
+
+.section-h1{
+  padding-bottom: 30px;
+  font-size: 22px;
+  
+}
+.section-h2{
+  font-size: 14px;
+  font-weight: 100;
+  padding-bottom: 30px;
+}
+.btn-left{
+  background-color: black;
+  color: white;
+  padding: 10px 28px;
+  border-radius: 35px;
+  border: 0;
+  gap: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+
+}
+.btn-right{
+  margin-left: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 28px;
+  border-radius: 35px;
+  border: 2px solid white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.btn-left:hover{
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0,5s;
+  border: 2px solid white;
+  
+} 
+.btn-right:hover{
+  cursor: pointer;
+  background-color: #1A69C7;
+  color: white;
+  transition: 0.5s;
+}
+.terms{
+  font-size: 10px;
+  justify-self: end;
+  color: white;
+  margin-top: 90px;
+}
+.white-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: auto;
+  width: 100%;
+}
+.white-container-h1 {
+  font-size: 24px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 460px;
+  padding-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.card-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.card-main img{
+  width: 180px;
+  
+}
+.card-main h2{
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 70%;
+  text-align: center;
+}
+.card-main p{
+  font-size: 14px;
+  width: 70%;
+  font-weight: semi-bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.section-grey{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  height: 800px;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.section-grey-h1{
+  font-size: 24px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+    
+}
+.section-grey-h1 p{
+  margin-top: 15px;
+  font-size: 14px;
+  width: 100%;
+  font-weight: semi-bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.card-grey-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;  
+  height: 460px;
+  padding-bottom: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+ 
+}
+.card-grey{
+  display: flex;
+  flex-direction: column;
+  width: 16%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+
+}
+.header-card{
+  align-self: left;
+}
+.card-grey ul{
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  height: 300px;
+  
+  
+}
+.card-grey li{
+  list-style-type:"✓";   
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: semi-bold;
+  height: 100%;
+  
+}
+.btn-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.grey-btn{
+  background-color: black;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 25px;
+  border: 2px solid black;
+  font-weight: bold;
+  width: 80%;
+ }
+hr{
+  width: 90%;
+  border: 0,5px solid black;
+  margin: 15px;
+  padding: 0;
+  align-self: center;
+}
+
+.footer-container{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  height: 600px;
+  align-items: top;
+}
+.logo-table-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-terms{
+  color: white;
+}
+table{
+  color: white;
+  font-size: 13px; 
+  width: 100%;
+}
+
+
+th, td {  
+  text-align: left;  
+  vertical-align: top;  
+  border-collapse: collapse;
+  padding: 10px 20px;
+  
+  
+}
+td:hover{
+  color: rgb(49, 243, 6);
+  cursor: pointer;
+}
+
+.footer-logo{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-self: start;
+  margin-left: 10px;
+}
+.footer-logo img{
+  width: 180px;
+  align-self: top;
+  justify-self: left;
+  margin-right: 300px;
+  
+}
+.footer-icons{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  justify-content: right;
+  margin-left: 300px;
+  
+}
+.footer-icons img{
+  width: 180px;
+  align-self: top;
+ 
+}
+.footer-terms{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: right;
+  margin-left: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer-terms p{
+  font-size: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+
+/* 
+<svg role="img" height="24" width="24" aria-hidden="true" aria-label="" viewBox="0 0 24 24" data-encore-id="icon" class="Svg-sc-ytk21e-0 ldgdZj"><path d="M21.707 4.805a1 1 0 0 1 0 1.414L8.024 19.902l-5.731-5.73a1 1 0 1 1 1.414-1.415l4.317 4.317L20.293 4.805a1 1 0 0 1 1.414 0z"></path></svg>
+path[Estilo de atributos] {
+  d: path("M 21.707 4.805 a 1 1 0 0 1 0 1.414 L 8.024 19.902 l -5.731 -5.73 a 1 1 0 1 1 1.414 -1.415 l 4.317 4.317 L 20.293 4.805 a 1 1 0 0 1 1.414 0 Z");
+} */
